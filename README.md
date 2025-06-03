@@ -24,7 +24,7 @@ Verifique se o iptables, git e o make estão instalados:
 
 Instale o Henkill:
 
-    $ git clone https://github.com/henrylaplace/henkill.git
+    $ git clone https://github.com/whoami-a51/henkill.git
     $ cd henkill/
     $ sudo make install
     
