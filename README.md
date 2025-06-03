@@ -7,7 +7,7 @@ Ferramenta - escrita em puro bash script - para autoconfigurar o iptables.
 
 Compatível com qualquer distro Linux.
 
-Autor: Whoami <<whoami.a51@protonmail.com>>
+Autor: Whoami <whoami.a51@riseup.net>
 
 Instalação
 -----------
