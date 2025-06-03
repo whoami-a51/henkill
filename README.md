@@ -7,7 +7,7 @@ Uma simples ferramenta - escrita em puro bash script - para auto configurar o ip
 
 Compátivel com qualquer distro Linux.
 
-Autor: Henry <<henry.antifa@icloud.com>>
+Autor: Henry <<whoami.a51@protonmail.com>>
 
 Instalação
 -----------
