@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  Copyright 2017 Henry <henry.antifa@icloud.com>
+#  Copyright 2017 Whoami <whoami.a51@protonmail.com>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -202,9 +202,9 @@ function help(){
     printf ${blue}
     echo -e "+-------------------------------------------+"
     echo -e "| Henkill 1.0 - Configuração iptables       |"
-    echo -e "| Copyright (C) 2017 Henry                  |"
+    echo -e "| Copyright (C) 2017 Whoami                 |"
     echo -e "|                                           |"
-    echo -e "| Contato: henry.antifa@icloud.com          |"
+    echo -e "| Contato: whoami.a51@protonmail.com        |"
     echo -e "+-------------------------------------------+"
 
     printf "${white}%s${endc}\\n"
@@ -230,9 +230,9 @@ function start(){
     printf ${blue}
     echo -e "+-------------------------------------------+"
     echo -e "| Henkill 1.0 - Configuração iptables       |"
-    echo -e "| Copyright (C) 2017 Henry                  |"
+    echo -e "| Copyright (C) 2017 Whoami                 |"
     echo -e "|                                           |"
-    echo -e "| Contato: henry.antifa@icloud.com          |"
+    echo -e "| Contato: whoami.a51@protonmail.com        |"
     echo -e "+-------------------------------------------+"
 
 printf "${white}%s${endc}\\n"
@@ -285,9 +285,9 @@ function stop(){
     printf ${blue}
     echo -e "+-------------------------------------------+"
     echo -e "| Henkill 1.0 - Configuração iptables       |"
-    echo -e "| Copyright (C) 2017 Henry                  |"
+    echo -e "| Copyright (C) 2017 Whoami                 |"
     echo -e "|                                           |"
-    echo -e "| Contato: henry.antifa@icloud.com          |"
+    echo -e "| Contato: whoami.a51@protonmail.com        |"
     echo -e "+-------------------------------------------+"
 printf "${white}%s${endc}\\n"
 
@@ -316,9 +316,9 @@ function restart(){
     printf ${blue}
     echo -e "+-------------------------------------------+"
     echo -e "| Henkill 1.0 - Configuração iptables       |"
-    echo -e "| Copyright (C) 2017 Henry                  |"
+    echo -e "| Copyright (C) 2017 Whoami                 |"
     echo -e "|                                           |"
-    echo -e "| Contato: henry.antifa@icloud.com          |"
+    echo -e "| Contato: whoami.a51@protonmail.com        |"
     echo -e "+-------------------------------------------+"
 printf "${white}%s${endc}\\n"
 
@@ -464,7 +464,7 @@ case $1 in
   *)
 
 printf "${white}%s\\n" "Henkill v1.0"
-echo -e "Escrito por: Henry <henry.antifa@icloud.com>"
+echo -e "Escrito por: Whoami <whoami.a51@protonmail.com>"
 echo ""
 echo -e "${white}""Tente 'henkill --help' para mais informações."
 
