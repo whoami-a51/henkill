@@ -3,7 +3,7 @@
 Henkill v1.0
 =============
 
-Ferramenta - escrita em puro bash script - para autoconfigurar o iptables. 
+Ferramenta - escrita em bash script - para autoconfigurar o iptables. 
 
 Compatível com qualquer distro Linux.
 
