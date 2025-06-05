@@ -56,23 +56,16 @@ Desinstalação
    • Habilita ou desabilita respostas a ping (ICMP).  
 
 Ativa/desativa proteções básicas do kernel contra ataques como:  
-
-   • Smurf Attack  
-
-   • SYN Flood   
-
-   • Redirects  
-
-   • Bogus error responses  
- 
-   • Martian packets  
-
-   • Roteamento de pacotes.  
+	• Smurf Attack  
+	• SYN Flood   
+	• Redirects  
+	• Bogus error responses  
+ 	• Martian packets  
+	• Roteamento de pacotes.  
 
 🔐 Configuração de segurança (politicaspadrao, criachain, dns)  
-
+	
    • Define políticas padrão DROP para todas as cadeias (INPUT, OUTPUT, FORWARD).  
-
    • Cria duas chains personalizadas:  
  
 	SYN → combate SYN Flood  
