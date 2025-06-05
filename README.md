@@ -7,8 +7,6 @@ Ferramenta - escrita em bash script - para autoconfigurar o firewall iptables.
 
 Compatível com qualquer distro Linux.
 
-Autor: Whoami <whoami.a51@protonmail.com>
-
 ![descrição](/henkill.png)  
 
 Instalação
