@@ -45,17 +45,17 @@ Desinstalação
     $ sudo make uninstall  
 
 
-🧹 Limpeza de regras (limparegras e limpatabelas)  
+🧹 Limpeza de regras (```limparegras``` e ```limpatabelas```)  
 
-   • Remove todas as regras existentes no iptables (chains, counters e políticas).  
+   • Remove todas as regras existentes no ```iptables``` (chains, counters e políticas).  
 
-   • Restaura as políticas padrão para ACCEPT ou DROP, dependendo do contexto.  
+   • Restaura as políticas padrão para ```ACCEPT``` ou ```DROP```, dependendo do contexto.  
 
-📡 Configuração de ICMP e proteção (ativaping, ativaprotecao, desativaprotecao)  
+📡 Configuração de ICMP e proteção (```ativaping```, ```ativaprotecao```, ```desativaprotecao```)  
 
    • Habilita ou desabilita respostas a ping (ICMP).  
 
-Ativa/desativa proteções básicas do kernel contra ataques como:  
+   • Ativa/desativa proteções básicas do kernel contra ataques como:  
 	• Smurf Attack  
 	• SYN Flood   
 	• Redirects  
@@ -63,26 +63,26 @@ Ativa/desativa proteções básicas do kernel contra ataques como:
  	• Martian packets  
 	• Roteamento de pacotes.  
 
-🔐 Configuração de segurança (politicaspadrao, criachain, dns)  
+🔐 Configuração de segurança (```politicaspadrao```, ```criachain```, ```dns```)  
 	
-   • Define políticas padrão DROP para todas as cadeias (INPUT, OUTPUT, FORWARD).  
+   • Define políticas padrão ```DROP``` para todas as cadeias (```INPUT```, ```OUTPUT```, ```FORWARD```).  
    • Cria duas chains personalizadas:  
  
 	SYN → combate SYN Flood  
 
 	SCANNER → combate port scans  
 
-   • Usa regras baseadas em recent para detectar e bloquear ataques reincidentes.  
+   • Usa regras baseadas em ```recent``` para detectar e bloquear ataques reincidentes.  
 
    • Ativa logs de tentativas de acesso a portas sensíveis (20, 21, 22, 23 — FTP, SSH, Telnet).  
 
-🔁 Loopback e conexões estabelecidas (permitirloop)  
+🔁 Loopback e conexões estabelecidas (```permitirloop```)  
 
-   • Permite tráfego do lo (loopback).  
+   • Permite tráfego do ```lo``` (loopback).  
 
    • Permite conexões estabelecidas ou relacionadas, o coração de qualquer firewall funcional.  
 
-🌐 DNS e serviços externos (dns)  
+🌐 DNS e serviços externos (```dns```)  
 
    • Libera tráfego DNS de entrada vindo da porta 53.  
 
@@ -93,7 +93,7 @@ Ativa/desativa proteções básicas do kernel contra ataques como:
 
    • É um firewall bem agressivo, bloqueando quase tudo por padrão.  
 
-   • ICMP é desativado por padrão, então comandos como ping vão parar de funcionar, o que pode ser problemático em redes que precisam de diagnóstico.  
+   • ICMP é desativado por padrão, então comandos como ```ping``` vão parar de funcionar, o que pode ser problemático em redes que precisam de diagnóstico.  
 
    • Algumas portas são explicitamente bloqueadas mesmo depois de logadas.   
 
