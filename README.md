@@ -49,7 +49,6 @@ Como ele funciona
 🧹 Limpeza de regras (```limparegras``` e ```limpatabelas```)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; • Remove todas as regras existentes no ```iptables``` (chains, counters e políticas).  
-
 &nbsp;&nbsp;&nbsp;&nbsp; • Restaura as políticas padrão para ```ACCEPT``` ou ```DROP```, dependendo do contexto.  
 
 📡 Configuração de ICMP e proteção (```ativaping```, ```ativaprotecao```, ```desativaprotecao```)  
@@ -68,34 +67,27 @@ Como ele funciona
  &nbsp;&nbsp;&nbsp;&nbsp; • Define políticas padrão ```DROP``` para todas as cadeias (```INPUT```, ```OUTPUT```, ```FORWARD```).  
  &nbsp;&nbsp;&nbsp;&nbsp; • Cria duas chains personalizadas:  
  
-	&nbsp;&nbsp;&nbsp;&nbsp; SYN → combate SYN Flood  
-
-	&nbsp;&nbsp;&nbsp;&nbsp; SCANNER → combate port scans  
+	SYN → combate SYN Flood  
+	SCANNER → combate port scans  
 
 &nbsp;&nbsp;&nbsp;&nbsp; • Usa regras baseadas em ```recent``` para detectar e bloquear ataques reincidentes.  
-
 &nbsp;&nbsp;&nbsp;&nbsp; • Ativa logs de tentativas de acesso a portas sensíveis (20, 21, 22, 23 — FTP, SSH, Telnet).  
 
 🔁 Loopback e conexões estabelecidas (```permitirloop```)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; • Permite tráfego do ```lo``` (loopback).  
-
 &nbsp;&nbsp;&nbsp;&nbsp; • Permite conexões estabelecidas ou relacionadas, o coração de qualquer firewall funcional.  
 
 🌐 DNS e serviços externos (```dns```)  
 
 &nbsp;&nbsp;&nbsp;&nbsp; • Libera tráfego DNS de entrada vindo da porta 53.  
-
 &nbsp;&nbsp;&nbsp;&nbsp; • (Comentado) Exemplo de como liberar outras portas para serviços comuns (HTTP, HTTPS, etc).  
 
 
 ⚠️ Algumas observações:  
 
 &nbsp;&nbsp;&nbsp;&nbsp; • É um firewall bem agressivo, bloqueando quase tudo por padrão.  
-
 &nbsp;&nbsp;&nbsp;&nbsp; • ICMP é desativado por padrão, então comandos como ```ping``` vão parar de funcionar, o que pode ser problemático em redes que precisam de diagnóstico.  
-
 &nbsp;&nbsp;&nbsp;&nbsp; • Algumas portas são explicitamente bloqueadas mesmo depois de logadas.   
-
 &nbsp;&nbsp;&nbsp;&nbsp; • Pode prejudicar serviços legítimos se não for bem ajustado.  
     
