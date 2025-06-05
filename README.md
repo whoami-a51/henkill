@@ -3,8 +3,7 @@
 Henkill v1.0
 =============
 
-Ferramenta - escrita em bash script - para autoconfigurar o firewall iptables. 
-
+Esse script é um firewall customizado usando iptables no Linux, com diversas funções para limpar regras, ativar ou desativar proteções, configurar políticas e criar regras avançadas de filtragem de pacotes.   
 Compatível com qualquer distro Linux.
 
 ![descrição](/henkill.png)  
