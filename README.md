@@ -87,7 +87,8 @@ Como ele funciona
 ⚠️ Algumas observações:  
 
 &nbsp;&nbsp;&nbsp;&nbsp; • É um firewall bem agressivo, bloqueando quase tudo por padrão.  
-&nbsp;&nbsp;&nbsp;&nbsp; • ICMP é desativado por padrão, então comandos como ```ping``` vão parar de funcionar, o que pode ser problemático em redes que precisam de diagnóstico.  
+&nbsp;&nbsp;&nbsp;&nbsp; • ICMP é desativado por padrão, então comandos como ```ping``` vão parar de funcionar, o que pode ser problemático em redes que 
+&nbsp;&nbsp;&nbsp;&nbsp; precisam de diagnóstico.  
 &nbsp;&nbsp;&nbsp;&nbsp; • Algumas portas são explicitamente bloqueadas mesmo depois de logadas.   
 &nbsp;&nbsp;&nbsp;&nbsp; • Pode prejudicar serviços legítimos se não for bem ajustado.  
     
