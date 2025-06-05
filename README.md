@@ -9,6 +9,8 @@ Compatível com qualquer distro Linux.
 
 Autor: Whoami <whoami.a51@protonmail.com>
 
+![descrição](/imgs/henkill.png)  
+
 Instalação
 -----------
 
