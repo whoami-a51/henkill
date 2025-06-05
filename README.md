@@ -42,14 +42,15 @@ Desinstalação
     $ cd henkill/
     $ sudo make uninstall  
 
-O que ele faz, em resumo:  
-&nbsp;&nbsp;&nbsp;&nbsp;Este parágrafo tem recuo simulado com HTML.
+
+Como ele funciona
+-----------
 
 🧹 Limpeza de regras (```limparegras``` e ```limpatabelas```)  
 
-   • Remove todas as regras existentes no ```iptables``` (chains, counters e políticas).  
+&nbsp;&nbsp;&nbsp;&nbsp; • Remove todas as regras existentes no ```iptables``` (chains, counters e políticas).  
 
-   • Restaura as políticas padrão para ```ACCEPT``` ou ```DROP```, dependendo do contexto.  
+&nbsp;&nbsp;&nbsp;&nbsp; • Restaura as políticas padrão para ```ACCEPT``` ou ```DROP```, dependendo do contexto.  
 
 📡 Configuração de ICMP e proteção (```ativaping```, ```ativaprotecao```, ```desativaprotecao```)  
 
