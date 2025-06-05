@@ -12,7 +12,7 @@ Compatível com qualquer distro Linux.
 Instalação
 -----------
 
-É recomendado atualizar sua distro:
+Atualize sua distro:
  
     $ sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 
@@ -31,7 +31,7 @@ Instale o Henkill:
 Uso
 ----
 
-Use: $ sudo henkill --[argumento]
+Use: ```$ sudo henkill --[argumento]```
 
 Para ver os argumentos válidos:
 
