@@ -215,14 +215,14 @@ function help(){
     printf "\\n${green}%s${endc}\\n" "Argumentos:"
     printf "${white}%s${endc}\\n"
 
-    printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--help"    "mostra essa mensagem de ajuda"
+    printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--help"    "mostra esta mensagem de ajuda"
     printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--start"   "inicia o henkill e configura o iptables"
     printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--stop"    "para o henkill e reseta configurações do iptables"
     printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--restart" "reinicia o henkill e reconfigura o iptables"
-    printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--status"  "checa o status do programa"
+    printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--status"  "checa o status do henkill"
     printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--checkip" "checa online o IP público"
     printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--list"    "lista as regras em todas as chains"
-    printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--version" "mostra a versão do programa e do iptables"
+    printf "${white}%-12s${endc} ${green}%s${endc}\\n" "--version" "mostra a versão do henkill e do iptables"
 }
 
 function start(){
