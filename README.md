@@ -18,9 +18,7 @@ Atualize sua distro:
 
 Verifique se o iptables, git e o make estão instalados:
  
-    $ sudo apt install iptables
-    $ sudo apt install git
-    $ sudo apt install make
+    $ sudo apt install iptables git make
 
 Instale o Henkill:
 
