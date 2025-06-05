@@ -42,6 +42,8 @@ Desinstalação
     $ cd henkill/
     $ sudo make uninstall  
 
+O que ele faz, em resumo:  
+&nbsp;&nbsp;&nbsp;&nbsp;Este parágrafo tem recuo simulado com HTML.
 
 🧹 Limpeza de regras (```limparegras``` e ```limpatabelas```)  
 
